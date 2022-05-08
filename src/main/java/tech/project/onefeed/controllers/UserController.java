@@ -7,6 +7,7 @@ import tech.project.onefeed.models.data.UserRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin (origins = "http://localhost:4200")
 public class UserController {
 
     private final UserRepository userRepository;
