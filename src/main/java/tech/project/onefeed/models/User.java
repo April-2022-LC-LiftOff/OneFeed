@@ -16,7 +16,7 @@ public class User extends AbstractEntity {
     private UUID id;
 
     @NotNull
-   private String Uname;
+   private String username;
 
    @NotNull
    private String pwHash;
@@ -33,13 +33,13 @@ public class User extends AbstractEntity {
 
     public User() {}
 
-   public User(String Uname, String Pass) {
-	   this.Uname = Uname;
+   public User(String username, String Pass) {
+	   this.username = username;
 	   this.pwHash = encoder.encode(Pass);
    }
 
    public String getUsername() {
-	   return Uname;
+	   return username;
    }
    
 // Salting carried out by encoder.matches() before comparison
