@@ -10,6 +10,15 @@ sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
+	maven {
+		url "https://repo.spring.io/release"
+	}
+	maven {
+		url "https://repo.spring.io/milestone"
+	}
+	maven {
+		url "https://repo.spring.io/snapshot"
+	}
 }
 
 dependencies {
@@ -20,6 +29,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'mysql:mysql-connector-java'
 	implementation  'org.springframework.security:spring-security-crypto'
+	implementation 'org.springframework.social:spring-social-core:2.0.0.M4'
+	implementation 'org.springframework.social:spring-social-web:2.0.0.M4'
+	implementation 'org.springframework.social:spring-social-config:2.0.0.M4'
+	//implementation 'org.springframework.social:spring-social-security:2.0.0.M4'
 }
 
 tasks.named('test') {
