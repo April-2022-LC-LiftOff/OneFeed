@@ -1,0 +1,36 @@
+.login-div {
+    width: 50%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+
+.username, .password {
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.login-button {
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    width: 130px;
+    margin: 15px auto;
+}
+
+.remember-user {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.password-recovery {
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 35px;
+}

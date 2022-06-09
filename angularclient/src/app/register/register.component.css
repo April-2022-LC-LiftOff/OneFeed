@@ -1,0 +1,24 @@
+.register-div {
+    margin-left: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+.username, .password, .email-address, .confirm-password {
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.submit-button {
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    width: 85px;
+    margin: 15px auto;
+}
