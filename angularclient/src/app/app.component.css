@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+.onefeed-title {
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.login-div {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.register-div {
+    margin-left: 50%;
+    text-align: center;
+}
+
+.form input {
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.username, .password, .email-address, .confirm-password {
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.login-button {
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    width: 130px;
+    margin: 15px auto;
+}
+
+.submit-button {
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    width: 85px;
+    margin: 15px auto;
+}
+
+.remember-user {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.password-recovery {
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 35px;
+}

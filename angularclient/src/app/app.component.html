@@ -1,23 +1,68 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<div>
-  <app-login></app-login>
-</div>
-<div>
-  <app-register></app-register>
-</div>
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.component.css">
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <div class="onefeed-title">
+      <h2>OneFeed</h2>
+    </div>
+
+    <div class="login-div">
+      <form class="form" method="get" action="login.php">
+        <div class="username">
+          <input type="text" name="Uname" id="Uname" placeholder="Username">
+        </div>
+        <div class="password">
+            <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        </div>
+        <div class="login-button">
+            <input type="button" name="log" id="log" value="Log In Here">
+        </div>
+        <div class="remember-user">
+            <input type="checkbox" id="check">
+            <span>Remember me?</span>
+        </div>
+        <div class="password-recovery">
+            Forgot <a href="#">Password</a>
+        </div>
+      </form>
+    </div>
+
+    <div class = register-div>
+      <form class="form" id="register" action="register.php" method="post">
+          <div class="username">
+              <label for='username' ></label>
+              <input type='text' name='username' id='username' placeholder="Username"/>
+          </div>
+      
+          <div class="email-address">
+              <label for='email' ></label>
+              <input type='text' name='email' id='email' placeholder="example@launchcode.org"/>
+          </div>
+      
+          <div class="password">
+              <label for='password' ></label>
+              <input type='password' name='password' id='password' placeholder="Password"/>
+          </div>
+      
+          <div class="confirm-password">
+              <label for='password2' ></label>
+              <input type='password' name='password2' id='password2' placeholder="Confirm Password"/>
+          </div>
+      
+          <div class="submit-button">
+              <input type='submit' name='Submit' value='Submit'/>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+
 
 <router-outlet></router-outlet>
