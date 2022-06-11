@@ -5,6 +5,12 @@
     text-align: center;
 }
 
+.login-text {
+    font-size: 32px;
+    width: 50%;
+    margin: 50px auto 25px auto;
+}
+
 .form input {
     font-size: 16px;
     padding: 5px;
@@ -40,5 +46,5 @@
 .password-recovery {
     width: 200px;
     margin: 0px auto;
-    margin-top: 35px;
+    margin-top: 20px;
 }
