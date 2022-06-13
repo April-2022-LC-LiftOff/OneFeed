@@ -1,0 +1,38 @@
+.register-div {
+    margin-left: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+.register-text {
+    font-size: 32px;
+    width: 50%;
+    margin: 50px auto 25px auto;
+}
+
+.form input {
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.username, .password, .email-address, .confirm-password {
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.submit-button {
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #D3D3D3;
+    width: 85px;
+    margin: 15px auto;
+}
